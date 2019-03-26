@@ -62,7 +62,3 @@ npm run build
 **Redux** - [Basics](https://redux.js.org/docs/basics/) | [An Introduction](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/) | [React with Redux](https://www.youtube.com/watch?v=1w-oQ-i1XB8)
 
 **Sass** - [Sass Guide](http://sass-lang.com/guide)
-
-#### The MIT License (MIT)
-
-MIT © 2017 Santhosh Sundar
