@@ -38,20 +38,11 @@ npm run build
 |  ├─ index.html              # Contains root element to mount your app.
 └─ src/
    ├─ actions/                # Create actions here.
-   |  ├─ counterActions.js
    ├─ components/             # Create components here
-   |  ├─ Controls.js
-   |  ├─ Counter.js
    |─ containers/             # Containers bridge Components with the State.
-   |  ├─ Controls.js
-   |  ├─ Counter.js
    ├─ constants/              # Define action types here.
-   |  ├─ ActionTypes.js
    ├─ reducers/               # Create reducers here.
-   |  ├─ counter.js
-   |  ├─ index.js             # Combine your reducers here.
    ├─ styles/                 # All styling goes here.
-   |  ├─ main.scss
    ├─ App.js                  # Include your main component(s).
    ├─ index.js                # Passes state to App. Renders markup to DOM.
    └─ store.js                # Creates and exports store.
