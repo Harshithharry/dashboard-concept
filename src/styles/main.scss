@@ -1,0 +1,102 @@
+
+// Variables
+
+$body-color: #f2f4f7;
+$white: #fff;
+$text-color-grey: #333;
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{
+	height: 100%;
+}
+body {
+	line-height: 1;
+	min-height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr {
+  border: 2px solid #666;
+}
+
+body {
+  background-color: #f3f3f4 !important;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+}
+
+.row-flush{
+&>[class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+}
+	// Layout Styles
+
+	.main-wrapper{
+		min-width:768px;
+		.view-Container{
+			margin-left: 240px;
+			padding-bottom: 49px;
+			  padding-top: 80px;
+			min-height: 100%;
+			transition: 0.3s;
+			&.sidebar-closed{
+				margin-left: 0;
+				// width: 100%;
+				transition: 0.3s;
+			}
+			.view-wrapper{
+				padding: 0 20px 20px 20px;
+			}
+		}
+	}
+
+
+@import "./views/sidebar";
+@import "./views/header";
+@import "./views/highlights";
+@import "./views/worldmap";
+@import "./views/activefeed";
